@@ -1,0 +1,22 @@
+.card{
+  display:flex;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.card-title { 
+    visibility: hidden; 
+    opacity: 0; 
+    transition: visibility 0s, opacity 0.5s; 
+  } 
+   
+  /* Show the text on hover */ 
+  .card:hover .card-title { 
+    visibility: visible; 
+    opacity: 1; 
+    transform: scale(1.1);
+    cursor: pointer;
+  }
