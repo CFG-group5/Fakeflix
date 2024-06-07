@@ -51,7 +51,7 @@ async function getGenres(){
         const name = genre.name;
 
         const genreElement = `
-        <li><a class="dropdown-item" href="#">${name}</a></li>
+        <li><a class="dropdown-item" href="../pages/genres.html">${name}</a></li>
         `;
 
         document.getElementById('genre-list').innerHTML += genreElement;
